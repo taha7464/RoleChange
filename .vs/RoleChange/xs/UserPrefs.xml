@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{51EC98D0-F24F-4CC0-8D10-C3420EEF9645}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+    <Files>
+      <File FileName="Services/JsonFileUserService.cs" Line="43" Column="16" />
+      <File FileName="Startup.cs" Line="38" Column="35" />
+      <File FileName="clientapp/src/App.tsx" Line="50" Column="10" />
+      <File FileName="Hubs/MyHub.cs" Line="19" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RoleChange" expanded="True">
+            <Node name="RoleChange" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.RoleChange PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

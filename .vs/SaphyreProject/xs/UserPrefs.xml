@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{51EC98D0-F24F-4CC0-8D10-C3420EEF9645}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+    <Files>
+      <File FileName="User.cs" Line="10" Column="39" />
+      <File FileName="Services/JsonFileUserService.cs" />
+      <File FileName="Controllers/UsersController.cs" />
+      <File FileName="Program.cs" />
+      <File FileName="data/users.json" />
+      <File FileName="Controllers/MessageController.cs" />
+      <File FileName="Startup.cs" Line="15" Column="21" />
+      <File FileName="package.json" />
+      <File FileName="package-lock.json" />
+      <File FileName="Hubs/MyHub.cs" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SaphyreProject PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

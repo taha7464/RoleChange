@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{51EC98D0-F24F-4CC0-8D10-C3420EEF9645}|RoleChange">
+  <MonoDevelop.Ide.Workbench ActiveDocument="clientapp/src/App.tsx">
+    <Files>
+      <File FileName="User.cs" Line="10" Column="39" />
+      <File FileName="Services/JsonFileUserService.cs" Line="39" Column="30" />
+      <File FileName="Controllers/UsersController.cs" Line="39" Column="25" />
+      <File FileName="Program.cs" />
+      <File FileName="data/users.json" />
+      <File FileName="Controllers/MessageController.cs" Line="1" Column="1" />
+      <File FileName="Startup.cs" Line="58" Column="58" />
+      <File FileName="package.json" />
+      <File FileName="package-lock.json" />
+      <File FileName="Hubs/MyHub.cs" />
+      <File FileName="clientapp/src/App.tsx" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RoleChange" expanded="True">
+            <Node name="RoleChange" expanded="True">
+              <Node name="clientapp" expanded="True">
+                <Node name="src" expanded="True">
+                  <Node name="App.tsx" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.RoleChange PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
