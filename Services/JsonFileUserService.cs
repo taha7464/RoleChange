@@ -10,11 +10,16 @@ using Newtonsoft.Json;
 namespace RoleChange.Services
 {
     public class JsonFileUserService
-    { 
+    {
+        public string rootFolder { get; set; }
+        public JsonFileUserService(IWebHostEnvironment env)
+        {
+            rootFolder = env.ContentRootPath;
+        }
 
         private string JsonFileName
         {
-            get { return "/users/tahatariq/projects/RoleChange/data/users.json"; }
+            get { return rootFolder + "/data/users.json"; }
         }
 
         public async Task< IEnumerable<User>> GetUsers()
@@ -38,18 +43,7 @@ namespace RoleChange.Services
             string json = JsonConvert.SerializeObject(users, Formatting.Indented);
             File.WriteAllText(JsonFileName, json);
             return await GetUsers();
-            
-            //using (var outputStream = File.OpenWrite(JsonFileName))
-            //{
-            //    JsonSerializer.Serialize<IEnumerable<User>>(
-            //    new Utf8JsonWriter(outputStream, new JsonWriterOptions
-            //        {
-            //            SkipValidation = true,
-            //            Indented = true
-            //        }),
-            //        users
-            //    );
-            //}
+           
         }
     }
 }
